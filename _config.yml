@@ -1,1 +1,118 @@
-theme: jekyll-theme-cayman
+#page title
+page_title                                : Undercity Prague - Subway Simulator                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+
+playstore_link                            : https://play.google.com/store/apps/details?id=com.JLapps.undercityPraha&referrer=utm_source%3Dgithub-page%26utm_medium%3Dweb
+presskit_download_link                    : null                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Undercity Prague - Subway Simulator                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : FREE
+app_description                           : Easy to play subway simulator. Explore cities' subway lines!
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : JL Apps
+your_link                                 :
+your_city                                 : Czechia
+email_address                             : jlapps1@gmail.com
+facebook_username                         : jlapps
+youtube_username                          : jlapps1
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Simple
+    description                           : Simple but fun to play subway simulator!
+    fontawesome_icon_name                 : thumbs-up
+    
+  - title                                 : Real stations
+    description                           : Contains subway station from worlds largest cities such as New York, London, Paris and more!
+    fontawesome_icon_name                 : globe-americas
+
+  - title                                 : Upgrade your subway
+    description                           : There are various upgrades for your subway such as higher maximum speed limit or faster braking
+    fontawesome_icon_name                 : arrow-alt-circle-up
+
+  - title                                 : Connect
+    description                           : Login to your Google Play Games account to connect with other players and earn achievements
+    fontawesome_icon_name                 : users
+
+  - title                                 : Graphics inspired by real trains
+    description                           : Each city has its own graphics for both trains and stations inspired by real ones
+    fontawesome_icon_name                 : subway
+  
+  - title                                 : Pixel art
+    description                           : Beautiful pixel art graphics gives you the right retro feel
+    fontawesome_icon_name                 : palette
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown

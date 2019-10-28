@@ -1,3 +1,9 @@
+---
+layout: page
+title: Privacy Policy
+include_in_header: false
+---
+
 ## Privacy Policy
 
 JL Apps built the Undercity - Prague app as an Ad Supported app. This SERVICE is provided by JL Apps at no cost and is intended for use as is.
